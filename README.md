@@ -1,6 +1,8 @@
 # HDMUpdate
 cli update the HDM firmware
+
 批量更新服务器的HDM固件,因此写了一个小cli工具
+
 h3c 服务器批量更新服务器的HDM固件,需要自行搭建一个tftp
 编译
 ```
