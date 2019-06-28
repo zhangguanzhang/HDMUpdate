@@ -19,7 +19,7 @@ Flags:
   -f, --filename string      the HDM bin filename from the tftp root path
   -h, --help                 help for HDMUpdate
   -p, --password string      HDM login password (default "Password@_")
-      --processlimit uint8   image process limit (default 1)
+      --processlimit uint8   update process limit (default 1)
   -t, --tftp string          HDM get bin file from the tftp ip
   -u, --user string          HDM login user (default "admin")
 ```
