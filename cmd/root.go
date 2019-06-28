@@ -66,6 +66,6 @@ func init(){
 	rootCmd.Flags().StringVarP(&password,"password","p","Password@_","HDM login password")
 	rootCmd.Flags().StringVarP(&tfpIP,"tftp","t","","HDM get bin file from the tftp ip")
 	rootCmd.Flags().StringVarP(&filename,"filename","f","","the HDM bin filename from the tftp root path")
-	rootCmd.Flags().Uint8Var(&processLimit, "processlimit", 1, "image process limit")
+	rootCmd.Flags().Uint8Var(&processLimit, "processlimit", 1, "update process limit")
 	_ = rootCmd.MarkFlagRequired("tftp")
 }
