@@ -6,6 +6,9 @@ cli update the HDM firmware
 h3c 服务器批量更新服务器的HDM固件,需要自行搭建一个tftp
 编译
 ```
+cd $GOPATH
+git clone https://github.com/zhangguanzhang/HDMUpdate.git
+cd HDMUpdate
 go build .
 ```
 命令帮助
